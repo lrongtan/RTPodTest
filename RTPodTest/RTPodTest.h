@@ -8,6 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
+#import "TxObject.h"
+#import "TestNumber.h"
+
 //! Project version number for RTPodTest.
 FOUNDATION_EXPORT double RTPodTestVersionNumber;
 

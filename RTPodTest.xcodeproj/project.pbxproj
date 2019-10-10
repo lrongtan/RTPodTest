@@ -8,12 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		5CE6CC62234F0EF70077D8D4 /* RTPodTest.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE6CC60234F0EF70077D8D4 /* RTPodTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE6CC6C234F10770077D8D4 /* TestNumber.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE6CC68234F10760077D8D4 /* TestNumber.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE6CC6D234F10770077D8D4 /* TxObject.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CE6CC69234F10760077D8D4 /* TxObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5CE6CC6E234F10770077D8D4 /* TxObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6CC6A234F10760077D8D4 /* TxObject.m */; };
+		5CE6CC6F234F10770077D8D4 /* TestNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CE6CC6B234F10760077D8D4 /* TestNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5CE6CC5D234F0EF70077D8D4 /* RTPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RTPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5CE6CC60234F0EF70077D8D4 /* RTPodTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RTPodTest.h; sourceTree = "<group>"; };
 		5CE6CC61234F0EF70077D8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5CE6CC68234F10760077D8D4 /* TestNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestNumber.h; sourceTree = "<group>"; };
+		5CE6CC69234F10760077D8D4 /* TxObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TxObject.h; sourceTree = "<group>"; };
+		5CE6CC6A234F10760077D8D4 /* TxObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TxObject.m; sourceTree = "<group>"; };
+		5CE6CC6B234F10760077D8D4 /* TestNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestNumber.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,6 +54,10 @@
 		5CE6CC5F234F0EF70077D8D4 /* RTPodTest */ = {
 			isa = PBXGroup;
 			children = (
+				5CE6CC68234F10760077D8D4 /* TestNumber.h */,
+				5CE6CC6B234F10760077D8D4 /* TestNumber.m */,
+				5CE6CC69234F10760077D8D4 /* TxObject.h */,
+				5CE6CC6A234F10760077D8D4 /* TxObject.m */,
 				5CE6CC60234F0EF70077D8D4 /* RTPodTest.h */,
 				5CE6CC61234F0EF70077D8D4 /* Info.plist */,
 			);
@@ -59,6 +71,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE6CC6D234F10770077D8D4 /* TxObject.h in Headers */,
+				5CE6CC6C234F10770077D8D4 /* TestNumber.h in Headers */,
 				5CE6CC62234F0EF70077D8D4 /* RTPodTest.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -130,6 +144,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CE6CC6F234F10770077D8D4 /* TestNumber.m in Sources */,
+				5CE6CC6E234F10770077D8D4 /* TxObject.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
